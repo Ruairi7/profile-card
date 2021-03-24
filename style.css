@@ -13,16 +13,15 @@ html {
 
 body {
     display:block;
-    height: 30rem;
+    height: 60vh;
     background-color: var(--dark-cyan);
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
     padding: 1.5rem;
     align-items: center;
     justify-content: center;
-    margin-top: 5rem;
-
-    
+    margin-top: 5rem;  
+    overflow: hidden;
 }
 #main{
     display: flex;
