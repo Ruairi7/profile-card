@@ -105,19 +105,19 @@ th, td {
 @media (max-width: 400px)
 {
     body {
-        max-width: 400px;
+        width: 400px;
+        height: 650px;
     }
     #card-container {
-        height: 65%;
+        height: 100%;
         width: 100%; 
-        margin-left: 5em;       
+        margin: 0 auto;       
     }
 
     .attribution {
         font-size: 0.8rem;
         display: block;
         width: 30em;
-        top: 25em;
     }
 
 }
