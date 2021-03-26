@@ -5,10 +5,6 @@
     font-size: 112.5%;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 body {
     display:block;
     height: 100vh;
@@ -24,8 +20,12 @@ body {
     display: flex;
     width: 100vw;
     height: 60vh;
-   align-items: center;
-   justify-content: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 
 }
 .top-image{
@@ -92,7 +92,12 @@ th, td {
 .attribution {
     width: 100%;
     display: inline-block;
-    position:relative;
+    margin: 0;
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .profile__info{
@@ -114,19 +119,9 @@ th, td {
 
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media (max-width: 400px)
+@media (max-width: 350px)
 {
    
-    .card-container {
-        height: 100%;
-        width: 100%; 
-        margin: 0 auto;       
-    }
-
-    .attribution {
-        font-size: 0.8rem;
-        display: block;
-        width: 30em;
-    }
+   
 
 }
