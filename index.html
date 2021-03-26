@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -10,36 +10,34 @@
 
   <title>Ruairi's Frontend Mentor | Profile card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  <div id="main">
-    <img id="top-image" src="images/bg-pattern-top.svg" alt="background pattern">
-    <img id="bottom-image" src="images/bg-pattern-bottom.svg" alt="background pattern"></img>
-    <div id="card-container">
-        <div id="card">
-          <img id="background" src="images/bg-pattern-card.svg" alt="card background"/>
-          <img id="pic" src="images/image-victor.jpg" alt="profile picture" />
-          <h1 id="name">Victor Crest  <span id="age">26</span></h1>
-          <h2 id="location">London</h2>
-          <hr>
-          <table id="stats">
+  <div class="main">
+    <img class="top-image" src="images/bg-pattern-top.svg" aria-hclassden="true">
+    <img class="bottom-image" src="images/bg-pattern-bottom.svg"  aria-hclassden="true"></img>
+    <div class="card-container">
+        <div class="card">
+          <img class="background" src="images/bg-pattern-card.svg" aria-hclassden="true"/>
+          <img class="profile__picture" src="images/image-victor.jpg" alt="victor's picture" />
+          
+          <section class="profile__info">
+          <h1 class="name">Victor Crest  <span class="age">26</span></h1>
+          <p class="location">London</h2>
+          <hr class="grid__divider">
+          <table class="stats">
             <tr class="title">
-              <th>80k</th>
-              <th>803k</th>
-              <th>1.4k</th>          
+              <td>80k</th>
+              <td>803k</th>
+              <td>1.4k</th>          
             </tr>
             <tr>
-              <td>Followers</td>
-              <td>Likes</td>
-              <td>Photos</td>
+              <th>Followers</td>
+              <th>Likes</td>
+              <th>Photos</td>
             </tr>
           </table>
+        </section>
         </div>
     </div>
     
