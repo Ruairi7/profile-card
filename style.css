@@ -135,6 +135,9 @@ th, td {
         padding-top: 0;
         transform: scale(1, 1);
     }
+    .top-image{
+        right: 5rem;
+    }
 
     .bottom-image {
         margin-bottom: -rem;
